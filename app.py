@@ -83,9 +83,9 @@ if st.button("Start energy prediction"):
          
      elif selected_page == "CIS":
          # Load the model from the file
-           model_from_joblib = joblib.load('CIS_modèle.pkl')
+           model_from_joblib = joblib.load('./CIS_modèle.pkl')
 
-           with open(os.path.join('..','CIS_modèle.pkl'), 'rb') as f:
+           with open(os.path.join('.','CIS_modèle.pkl'), 'rb') as f:
             pickle.load(f)
 
         # Use the loaded model to make predictions
@@ -93,9 +93,9 @@ if st.button("Start energy prediction"):
          
      elif selected_page == "CdTe":
         # Load the model from the file
-        model_from_joblib = joblib.load('CdTe_modèle.pkl')
+        model_from_joblib = joblib.load('./CdTe_modèle.pkl')
 
-        with open(os.path.join('..','CdTe_modèle.pkl'), 'rb') as f:
+        with open(os.path.join('.','CdTe_modèle.pkl'), 'rb') as f:
             pickle.load(f)
 
         # Use the loaded model to make predictions
