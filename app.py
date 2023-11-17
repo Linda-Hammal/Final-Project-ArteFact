@@ -73,7 +73,7 @@ if st.button("Start energy prediction"):
     def main():
      if selected_page == "Silicium cristallin":
          # Load the model from the file
-        model_from_joblib = joblib.load("Sili.pkl")
+        model_from_joblib = joblib.load("./Sili.pkl")
 
         with open(os.path.join("Sili.pkl"), 'rb') as f:
            pickle.load(f)
