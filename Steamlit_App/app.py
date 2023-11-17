@@ -17,10 +17,10 @@ st.write("""
    This interface makes it possible to predict the performance of a photovoltaic system for the next 7 days based on upcoming weather conditions, taking into account the geographic location of the installation.
     """)
 
-with open("Help.pdf", "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
+#with open("Help.pdf", "rb") as pdf_file:
+#    PDFbyte = pdf_file.read()
     
-st.sidebar.download_button(label="Download Help Documentation",data=PDFbyte, file_name="Help.pdf",mime='application/octet-stream')
+#st.sidebar.download_button(label="Download Help Documentation",data=PDFbyte, file_name="Help.pdf",mime='application/octet-stream')
 
 st.sidebar.header("PV technology")
 st.title("")
