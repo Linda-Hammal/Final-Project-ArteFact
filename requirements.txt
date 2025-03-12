@@ -10,4 +10,4 @@ retry_requests==2.0.0
 streamlit==1.28.2
 pickle5==0.0.11
 keras==3.9.0
-tensorflow==2.14.0
+tensorflow==2.17.0
