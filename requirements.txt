@@ -8,5 +8,4 @@ plotly==5.18.0
 requests_cache==1.1.0
 retry_requests==2.0.0
 streamlit==1.28.2
-keras==3.9.0
 tensorflow==2.17.0
